@@ -15,6 +15,18 @@ body{
     padding: 15px 35px;
 
 }
+.section-title{
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
 
 /*header related style*/
 .header{
@@ -59,9 +71,9 @@ nav {
     margin: 0px 200px;
 }
 .nav-title {
-color: #181818;
-font-size: 45px;
-font-weight: 800;
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
 }
 nav > ul{
     display: flex;
@@ -74,4 +86,25 @@ nav li{
 nav a{
     text-decoration: none;
     color: rgba(71, 71, 71, 1);
+}
+/*main section style here*/
+
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/* about section style */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+.aobut-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
